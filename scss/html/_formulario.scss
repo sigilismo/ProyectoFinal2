@@ -1,0 +1,9 @@
+@import "../utilidades/variables";
+
+.button{
+    border: $borde-boton;
+    background-color: $boton-color;
+    font-size: 1.25rem;
+    padding: 0.6rem;
+    margin-top: 1.25rem;
+}

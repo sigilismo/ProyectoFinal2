@@ -1,0 +1,29 @@
+@import "../utilidades/variables";
+
+/* estilos header */
+
+
+.header{
+    background-color: $fondo-color;
+    font-size: 1.25rem;
+    border: $borde-header;
+    height: 13rem;
+    .nav{
+        margin-top: 0.3rem;
+        border: 2px solid black;
+        .logo{
+            text-align: revert;
+            padding-top: 0rem;
+            padding-left: 1.25rem;
+        }
+        .logo img{
+            height: 6rem;
+            width: 6rem;
+            border-radius: 0.6rem;
+        }
+        .menu ul{
+            text-align: right;
+            padding-right: 0.9rem;
+        }
+    }
+}

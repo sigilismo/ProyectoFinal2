@@ -1,0 +1,41 @@
+/* estilos index */
+@import "../utilidades/variables";
+
+/*estilos index*/
+
+.index{
+    .cont-img{
+        width: 40rem;
+        height: 20rem;
+        border: $borde-color;
+        margin-top: 3rem;
+        .cont-text{
+            padding-top: 2rem;
+        
+            h1{
+                font-family: 'Montserrat', sans-serif;
+                color: $titulo-color;
+            }
+            h2{
+                font-family: 'Poppins', sans-serif;
+                color: $titulo-color;
+            }
+            .cont-parrafo{
+                font-family: 'Montserrat', sans-serif;
+                border: $borde-color;
+                margin-top: 1.25rem;
+                margin-bottom: 1.25rem;
+            
+            .animate__animated.animate__headShake{
+                --animate-delay: 0.3s
+            }
+
+        
+            }
+        }
+    }
+}
+
+
+
+ 

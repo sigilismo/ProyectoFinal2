@@ -1,0 +1,16 @@
+@import "../utilidades/variables";
+
+/*estilos footer */
+
+.footer{
+    background-color: rgb(57, 107, 123);
+    height: 25rem;
+    display: flex;
+    padding: 6rem;
+    border: $borde-footer;
+
+    .contacto1 .email{
+        .display: flex;
+        padding-top: 5rem;
+    }
+}

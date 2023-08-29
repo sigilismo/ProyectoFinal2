@@ -26,19 +26,19 @@
     <header>
         <nav class="menu">
             <div class="logo">
-                <a href="index.html"><img src="Imagenes/logo.png" alt="Logo"></a>
+                <a href="index.html"><img src="imagenes/logo.png" alt="Logo"></a>
             </div>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                    <ul class="nav navbar-nav">
-                      <li class="navbar-left"><a href="index.html">Inicio</a></li>
-                      <li class="navbar-left"><a href="paginas/marcas.html">Marcas</a></li>
-                      <li class="active"><a href="paginas/personal.html">Personal</a></li>
+            <nav class="nav-menu">
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="menu-icon"><img src="imagenes/icono-hamburguesa.png" alt=""></i>
+                </label>
+                <ul>
+                      <li><a href="index.html">Inicio</a></li>
+                      <li><a href="paginas/marcas.html">Marcas</a></li>
+                      <li><a href="paginas/personal.html">Personal</a></li>
                       <li><a href="paginas/contacto.html">Contacto</a></li>
-                      <li class="navbar-right"><a href="paginas/redes.html">Redes Sociales</a></li>
+                      <li><a href="paginas/redes.html">Redes Sociales</a></li>
                     </ul>
                   </div>
                 </nav>
@@ -47,9 +47,10 @@
         <section class="cont-img">
             <img src="imagenes/libreria.png" alt="chica">
         </section>
-        <section class="cont-text">
-            <h1 class="animate__animated animate__backInDown">Distribuidora de Libreria</h1>
-            <h2 class="animate__animated animate__headShake">Hernando</h2>
+        
+        <div class="cont-text">
+            <h1>Distribuidora de Libreria</h1>
+            <h2>Hernando</h2>
         
             <div class="cont-parrafo">
                 <p>Nos dedicamos a la distribuicion de libreria en la mayoria de la parte del sur argentino
